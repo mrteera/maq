@@ -28,5 +28,10 @@ class Ability
     #
     # See the wiki for details:
     # https://github.com/CanCanCommunity/cancancan/wiki/Defining-Abilities
+    if user.nil?
+      cannot :access, :rails_admin
+    elsif user.is_admin?
+      can :manage, :all
+    end
   end
 end
