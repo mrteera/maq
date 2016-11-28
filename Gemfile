@@ -36,7 +36,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
   gem 'launchy'
-  gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'rubocop', require: false
   gem 'haml-lint', require: false
