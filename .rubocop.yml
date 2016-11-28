@@ -27,6 +27,9 @@ AllCops:
     - custom_plan.rb
     - config.ru
     - Rakefile 
+    - app/models/role.rb
+    - spec/support/matchers/cancan_matchers.rb
+    - spec/support/controller_helpers.rb
 
 # Prefer &&/|| over and/or.
 Style/AndOr:
