@@ -75,3 +75,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'poltergeist'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
+gem 'rails_admin', '~> 1.0'
